@@ -1,0 +1,26 @@
+{
+  "name": "chat_application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/cluster.js",
+    "dev": "nodemon server/cluster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "socket.io": "^4.8.3",
+    "sticky-session": "^1.1.2",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
