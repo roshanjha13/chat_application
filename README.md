@@ -86,7 +86,7 @@ cp .env.example .env
 Edit `.env`:
 ```env
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/chatapp
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/chatapp
 WORKERS=4
 ```
 
